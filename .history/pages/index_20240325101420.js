@@ -1,6 +1,6 @@
 import ParentToChild from "./ParentOne";
 import styles from "@/styles/Home.module.css";
-import ChildToParent from "./ParentTwo";
+import ChildToParent fro
 
 
 export default function Home() {
@@ -9,7 +9,6 @@ export default function Home() {
       
       <main className={`${styles.main}`}>
         <ParentToChild />
-        <ChildToParent />
       </main>
     </>
   );

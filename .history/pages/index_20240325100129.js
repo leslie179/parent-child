@@ -1,15 +1,14 @@
 import ParentToChild from "./ParentOne";
 import styles from "@/styles/Home.module.css";
-import ChildToParent from "./ParentTwo";
 
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
       
-      <main className={`${styles.main}`}>
-        <ParentToChild />
-        <ChildToParent />
+      <main className={`${styles.main} ${inter.className}`}>
+        <ParentToChild>
       </main>
     </>
   );
